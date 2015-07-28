@@ -18,7 +18,8 @@
   "homepage": "https://github.com/thewazir/anteckna#readme",
   "dependencies": {
     "react": "^0.13.3",
-    "react-router": "^0.13.3"
+    "react-router": "^0.13.3",
+    "reactfire": "^0.4.0"
   },
   "devDependencies": {
     "babel-core": "^5.8.14",

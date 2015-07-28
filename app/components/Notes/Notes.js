@@ -1,4 +1,5 @@
 const React = require('react');
+const NotesList = require('./NotesList');
 
 class Notes extends React.Component{
   render(){
@@ -6,7 +7,7 @@ class Notes extends React.Component{
       <div>
         User Profile <br />
         Username: {this.props.username} <br />
-        Notes: {this.props.notes}
+        <NotesList notes={this.props.notes} />
       </div>
       )
   }
