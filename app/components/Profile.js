@@ -31,11 +31,4 @@ const Profile = React.createClass({
   }
 });
 
-
-Profile.propTypes = {
-  notes: React.PropTypes.array,
-  bio:  React.PropTypes.object,
-  repos:  React.PropTypes.array
-};
-
 module.exports = Profile;
