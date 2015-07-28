@@ -1,0 +1,2 @@
+# -anteckna
+github note taking
